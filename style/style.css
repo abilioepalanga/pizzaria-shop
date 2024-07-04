@@ -21,3 +21,12 @@ html {
    height: 100vw;
    overflow-x: hidden;
 }
+
+/*first-section style*/
+.first-section {
+   display: flex;
+   width: 100vw;
+   height: 100vh;
+   flex-direction: column;
+   justify-content: center;
+}
