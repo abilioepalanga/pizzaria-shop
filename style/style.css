@@ -1,4 +1,7 @@
+/*All import css files*/
 @import url("/style/header.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
 /*Reset all style pages*/
 * {
    margin: 0;
@@ -7,4 +10,14 @@
    list-style: none;
    border: none;
    text-decoration: none;
+   font-family: "Roboto", sans-serif;
+}
+
+/*html style*/
+html {
+   font-size: 62.5%;
+   scroll-behavior: smooth;
+   width: 100vw;
+   height: 100vw;
+   overflow-x: hidden;
 }
