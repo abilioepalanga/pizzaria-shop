@@ -1,0 +1,10 @@
+@import url("/style/header.css");
+/*Reset all style pages*/
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   border: none;
+   text-decoration: none;
+}
