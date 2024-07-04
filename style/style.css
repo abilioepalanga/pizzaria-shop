@@ -4,29 +4,52 @@
 
 /*Reset all style pages*/
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   list-style: none;
-   border: none;
-   text-decoration: none;
-   font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
 }
 
 /*html style*/
 html {
-   font-size: 62.5%;
-   scroll-behavior: smooth;
-   width: 100vw;
-   height: 100vw;
-   overflow-x: hidden;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    width: 100vw;
+    height: 100vw;
+    overflow-x: hidden;
 }
 
 /*first-section style*/
 .first-section {
-   display: flex;
-   width: 100vw;
-   height: 100vh;
-   flex-direction: column;
-   justify-content: center;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url("/img/Pizza-fundo.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50px;
+}
+.first-section .main-conteiner {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first-section .main-conteiner h1 {
+    color: #f1c40f;
+    font-size: 6rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
 }
