@@ -6,3 +6,10 @@
     display: flex;
     justify-content: center;
 }
+.img-kitchen img {
+    width: 400px;
+    height: 400px;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    border: 2px solid rgb(155 155 155);
+}
