@@ -13,3 +13,24 @@
     margin-left: 10rem;
     border: 2px solid rgb(155 155 155);
 }
+
+.main-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content-about h2 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+.content-about p {
+    text-align: justify;
+    font-size: 1.8rem;
+    width: 600px;
+}
