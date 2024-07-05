@@ -11,7 +11,7 @@
     height: 400px;
     margin-top: 10rem;
     margin-left: 10rem;
-    border: 2px solid rgb(155 155 155);
+    border: 2px solid #f1c40f;
 }
 
 .main-about {
@@ -33,4 +33,8 @@
     text-align: justify;
     font-size: 1.8rem;
     width: 600px;
+}
+.content-about p span {
+    font-size: 1.9rem;
+    color: #f1c40f;
 }
