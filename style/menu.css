@@ -1,8 +1,32 @@
 .menu {
-    background-color: rgb(68, 69, 40);
+    background-color: rgba(68, 69, 40, 0.8);
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
+}
+
+#title {
+    font-size: 2em;
+    color: white;
+    margin: 0;
+}
+
+.menu-conteiner {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    align-content: space-between;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 30px;
+}
+
+.menu-conteiner img {
+    max-width: 120px;
+    max-height: 120px;
+    object-fit: cover;
 }
