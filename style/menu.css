@@ -26,7 +26,32 @@
 }
 
 .menu-conteiner img {
-    max-width: 120px;
-    max-height: 120px;
-    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.pizza-description {
+    background-color: slategrey;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.pizza-description h3 {
+    color: #fff708;
+    font-size: 1.8em;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+.pizza-description h4 {
+    font-size: 1.4rem;
+    margin-bottom: 0.6rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 150px 110px;
+    margin-left: 6rem;
 }
