@@ -14,12 +14,18 @@
     display: flex;
     flex-direction: row;
     justify-items: left;
-    gap: 10px;
+    gap: 8px;
     margin-top: 10px;
     font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 200ms ease-in;
 }
 
 .contact h1 {
     font-size: 4rem;
     margin-top: 10px;
+}
+
+.contact-description div:hover {
+    color: #f1c40f;
 }
