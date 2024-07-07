@@ -17,7 +17,7 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 70%;
     align-content: space-between;
     grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
     margin-top: 2rem;
