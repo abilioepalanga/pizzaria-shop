@@ -29,3 +29,10 @@
 .contact-description div:hover {
     color: #f1c40f;
 }
+.contact-description div a {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+}
