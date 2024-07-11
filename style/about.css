@@ -52,6 +52,15 @@
         margin-top: 5rem;
         margin-left: 5rem;
     }
+
+    .content {
+        width: 100%;
+        height: 60px;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        padding-left: 15rem;
+    }
 }
 
 @media screen and (max-width: 990px) {
@@ -88,5 +97,24 @@
         text-align: justify;
         font-size: 1.4rem;
         width: 400px;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+}
+
+@media screen and (max-width: 727px) {
+    .main-about {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: left;
     }
 }
