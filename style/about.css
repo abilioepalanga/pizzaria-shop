@@ -38,3 +38,54 @@
     font-size: 1.9rem;
     color: #f1c40f;
 }
+
+@media screen and (max-width: 1157px) {
+    .main-about {
+        padding: 2%;
+    }
+    .content-about {
+        width: 60%;
+    }
+    .img-kitchen img {
+        width: 300px;
+        height: 300px;
+        margin-top: 5rem;
+        margin-left: 5rem;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .main-about {
+        padding: 1%;
+        justify-content: center;
+    }
+    .content-about {
+        width: 50%;
+        padding: 2%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+        margin-right: 5rem;
+    }
+    .img-kitchen img {
+        width: 200px;
+        height: 200px;
+        margin-top: 5rem;
+        margin-left: 5rem;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .main-about {
+        padding: 1%;
+        justify-content: center;
+    }
+    .content-about {
+        width: 50%;
+        padding: 2%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+        margin-right: 5rem;
+    }
+}
