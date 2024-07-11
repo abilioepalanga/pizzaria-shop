@@ -118,4 +118,21 @@ html {
         width: 30px;
         height: 30px;
     }
+    .content.on {
+        position: fixed;
+        width: 100vw;
+        height: 100vw;
+        background-color: rgba(30, 31, 30, 0.8);
+        z-index: 10;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .content.on .logo {
+        display: none;
+    }
 }
