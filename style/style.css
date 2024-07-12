@@ -152,6 +152,6 @@ html {
     }
 }
 
-.content.on .menu-toggle .on one {
-    transform: rotate(-45deg) translate(-5px, 6px);
+.content.on .menu-toggle .on .one {
+    transform: rotate(45deg) translate(5px, -8px);
 }
