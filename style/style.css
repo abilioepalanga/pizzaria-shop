@@ -151,3 +151,7 @@ html {
         font-size: 2rem;
     }
 }
+
+.content.on .menu-toggle .on one {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
