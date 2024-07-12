@@ -155,3 +155,7 @@ html {
 .content.on .menu-toggle .on .one {
     transform: rotate(45deg) translate(5px, -8px);
 }
+
+.content.on .menu-toggle .on .two {
+    opacity: 0;
+}
