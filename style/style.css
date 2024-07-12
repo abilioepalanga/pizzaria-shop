@@ -135,4 +135,19 @@ html {
     .content.on .logo {
         display: none;
     }
+    .content.on .menu-toggle {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    .content.on .list-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .content.on .list-menu li a {
+        font-size: 2rem;
+    }
 }
