@@ -137,8 +137,8 @@ html {
     }
     .content.on .menu-toggle {
         position: absolute;
-        top: 40px;
-        right: 40px;
+        top: 20px;
+        right: 80px;
     }
     .content.on .list-menu {
         display: flex;
@@ -154,4 +154,14 @@ html {
 
 .content.on .menu-toggle .one {
     transform: rotate(45deg) translate(5px, -8px);
+}
+.content.on .menu-toggle .three {
+    transform: rotate(-45deg) translate(19px, -8px);
+}
+.content.on .menu-toggle .two {
+    opacity: 0;
+}
+
+.content.on .menu-toggle .one .three {
+    margin-bottom: 50px;
 }
