@@ -182,4 +182,31 @@ html {
         flex-direction: column;
         margin-left: 35px;
     }
+    .contact .contact-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-block: 1px;
+    }
+    .contact .contact-description div {
+        display: flex;
+
+        justify-items: center;
+        margin: -11px;
+        cursor: pointer;
+    }
+    .contact h1 {
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    .contact {
+        display: flex;
+
+        margin-bottom: 30px;
+    }
+    footer {
+        display: flex;
+        margin-left: 30px;
+    }
 }
