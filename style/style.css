@@ -41,7 +41,8 @@ html {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: 50px;
+    background-position-y: auto;
+    background-position-x: cover;
 }
 .first-section .main-conteiner {
     display: flex;

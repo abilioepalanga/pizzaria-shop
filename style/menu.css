@@ -85,3 +85,8 @@
     border-radius: 8px;
     box-shadow: rgb(3, 3, 3) 0px 0px 10px;
 }
+@media screen and (max-width: 451px) {
+    :fullscreen {
+        background-color: rgb(130, 237, 0);
+    }
+}
